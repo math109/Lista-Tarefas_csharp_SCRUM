@@ -1,5 +1,5 @@
 ```markdown
-# 📝 Gerenciador de Tarefas (CRUD) com .NET 10 e MongoDB Atlas
+Gerenciador de Tarefas (CRUD) com .NET 10 e MongoDB Atlas
 
 Este é um projeto prático de um **Gerenciador de Tarefas em Console** desenvolvido em C# utilizando o **.NET 10**. O sistema foi originalmente projetado utilizando SQLite com Entity Framework Core e, posteriormente, migrado com sucesso para o **MongoDB Atlas**, um banco de dados NoSQL totalmente baseado na nuvem.
 
