@@ -38,4 +38,4 @@ Passo a Passo
 
 1. Clonar o Repositório:
    git clone https://github.com/math109/Lista-Tarefas_csharp_SCRUM.git
-   cd ListaTarefas-MongoDB
+   cd ListaTarefas
