@@ -1,18 +1,16 @@
 ```markdown
 Gerenciador de Tarefas (CRUD) com .NET 10 e MongoDB Atlas
 
-Este é um projeto prático de um **Gerenciador de Tarefas em Console** desenvolvido em C# utilizando o **.NET 10**. O sistema foi originalmente projetado utilizando SQLite com Entity Framework Core e, posteriormente, migrado com sucesso para o **MongoDB Atlas**, um banco de dados NoSQL totalmente baseado na nuvem.
+Este é um projeto prático de um Gerenciador de Tarefas em Console desenvolvido em C# utilizando o .NET 10. O sistema foi originalmente projetado utilizando SQLite com Entity Framework Core e, posteriormente, migrado com sucesso para o MongoDB Atlas, um banco de dados NoSQL totalmente baseado na nuvem.
 
 O projeto implementa todas as operações essenciais de um sistema de persistência de dados (**CRUD**): Criação, Leitura, Atualização e Deleção de registros.
 
  Funcionalidades
 
-- Adicionar Tarefa (Create):** Instancia um novo objeto tarefa e o envia em formato JSON diretamente para a nuvem.
-- Listar Tarefas (Read):** Recupera todos os documentos armazenados na coleção do MongoDB e os exibe de forma legível no console.
-- Atualizar Tarefa (Update):** Permite alterar o status (Concluída/Pendente) de uma tarefa existente através do seu identificador único.
-- Deletar Tarefa (Delete):** Remove permanentemente um documento de tarefa do banco de dados na nuvem.
-
----
+- Adicionar Tarefa (Create): Instancia um novo objeto tarefa e o envia em formato JSON diretamente para a nuvem.
+- Listar Tarefas (Read): Recupera todos os documentos armazenados na coleção do MongoDB e os exibe de forma legível no console.
+- Atualizar Tarefa (Update): Permite alterar o status (Concluída/Pendente) de uma tarefa existente através do seu identificador único.
+- Deletar Tarefa (Delete): Remove permanentemente um documento de tarefa do banco de dados na nuvem.
 
  Tecnologias Utilizadas
 
@@ -39,6 +37,5 @@ O ecossistema do projeto está dividido em componentes claros e interconectados:
 Passo a Passo
 
 1. Clonar o Repositório:
-   ```bash
-   git clone [https://github.com/math109/ListaTarefas-MongoDB.git](https://github.com/math109/ListaTarefas-MongoDB.git)
+   git clone https://github.com/math109/Lista-Tarefas_csharp_SCRUM.git
    cd ListaTarefas-MongoDB
